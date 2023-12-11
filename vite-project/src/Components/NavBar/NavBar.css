@@ -1,0 +1,24 @@
+.NavBar {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 5x;
+    width: 100%;
+    background-color: rgb(247, 136, 95);
+    color: rgb(254, 246, 228);
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style: none;
+    font-size: 18px;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
